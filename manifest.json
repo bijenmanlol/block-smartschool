@@ -1,0 +1,16 @@
+{
+"name": "block smartschool",
+"version": "0.0.1",
+"manifest_version": 3,
+"permissions":[
+"activeTab"
+],
+
+"content_scripts": [
+{
+   "matches": ["https://lyceumgent.smartschool.be/*"],
+   "js": ["content.js"],
+   "css": ["content.css"]
+   }
+]
+}
