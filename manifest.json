@@ -13,4 +13,11 @@
    "css": ["content.css"]
    }
 ]
+   "content_scripts": [
+{
+   "matches": ["https://daltonlyceum.noteble.be/*"],
+   "js": ["content1.js"],
+   "css": ["content.css"]
+   }
+]
 }
